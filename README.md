@@ -1,2 +1,2 @@
 # NLP project
-This repositry is about NLP project to classify given sentence as positive or negative feedback
+This repositry is about NLP project to classify given sentence as positive or negative feedback. I used TF-IDF techniques and extracted 4 features for each sentence, each sentence is converted into 6 sized integer vector based on the tokens present in the sentence. This 6d vector is passed through the embedding and LSTM layer and 4 other features are passed through the simple neural network layers whose outputs are then merged using TensorFlow concatenate function and this merged neural network is trained
